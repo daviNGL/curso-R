@@ -34,3 +34,28 @@ inicio = length(vogais) - 2
 ultima_pos = length(vogais)
 
 vogais[inicio: ultima_pos]
+
+
+
+
+
+# FILTROS ATRAVES DE CONDICOES
+
+# TUDO QUE SEJA = E
+vogais[vogais=="e"]
+
+# TUDO QUE SEJA != E
+vogais[vogais!="e"]
+
+
+
+numeros <- c(0, 1,2,3,4,5,6,7,8,9)
+
+numeros[numeros>=5]
+numeros[numeros%%2==0]
+
+
+
+
+
+

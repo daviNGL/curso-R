@@ -28,3 +28,20 @@ nomes
 
 nome_1 == nome_2
 nome_1 == nome_1
+
+
+
+
+# FATORES ================
+
+carga_horaria <- c(220, 220, 150, 100, 100)
+
+
+# DA UM RESUMO SOBRE A VARIAVEL (min, max, media, quartetos, etc)
+summary(carga_horaria)
+
+
+
+# INDICAR PRO R QUE SAO CATEGORIAS, E NAO APENAS VALORES ALEATORIOS
+carga_horaria <- as.factor(c(220, 220, 150, 100, 100))
+summary(carga_horaria)

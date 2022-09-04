@@ -5,11 +5,11 @@ nome3 <- "Kurapika"
 
 
 # FUNCAO 'C' CRIA UM VETOR COM OS VALORES INFORMADOS
-nome_completo <- c(nome, nome1, nome2, nome3)
+vetor_nomes <- c(nome, nome1, nome2, nome3)
 
 numeros_pares <- c(2,4,6,8,10,12,14,16,18,20)
 
-nome_completo
+vetor_nomes
 numeros_pares
 
 
@@ -26,4 +26,9 @@ library(stringr)
 
 ?str_c
 
+nome <- "Killua"
+sobrenome <- "Freecss"
 
+nome_completo <- str_c(nome, sobrenome, sep = " ")
+
+nome_completo

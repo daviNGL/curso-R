@@ -59,3 +59,39 @@ numeros[numeros%%2==0]
 
 
 
+# FILTROS PRA DATA FRAMES ====================================
+
+
+
+setwd("D:\Documentos\Cursos\curso_R")
+
+df <- read.csv(file = "DataFrame.csv", header = TRUE, sep = ";")
+
+
+# PEGA A PRIMEIRA COLUNA INTEIRA (EH A MSM COISA DE FAZER DF[,1])
+# TODAS AS LINHAS, DA COLUNA 1 
+df[,1]
+
+# PEGA A PRIMEIRA LINHA INTEIRA
+# PRIMEIRA LINHA, TODAS AS COLUNAS
+df[1,]
+
+
+# PRIMEIRA LINHA, COLUNAS 2 E 3
+df[1,2:3]
+
+
+# LINHAS 2 E 3, TODAS COLUNAS
+df[2:3,]
+
+
+# LINHAS ONDE CLASSE DO NEN = REFORCO, TODAS AS COLUNAS
+df[df$CLASSE_NEN == "Reforco", ]
+
+
+# LINHAS ONDE CLASSE DO NEN = REFORCO, COLUNAS 1 E 3
+df[df$CLASSE_NEN == "Reforco", c(1,3)]
+
+
+
+

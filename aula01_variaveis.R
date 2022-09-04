@@ -13,3 +13,21 @@ a <- 10
 a
 b
 
+# COLOCANDO NO C A SOMA DE A COM B
+c <- a + b
+
+
+# VARIAVEIS NUMERICAS
+num1 <- 10
+num2 <- 20.5
+num3 <- -987
+
+
+# VARIAVEIS DE TEXTO
+nome <- "Gon"
+sobrenome <- "Freecss"
+
+
+# VARIAVEIS BOOLEANO
+teste <- TRUE
+test <- FALSE

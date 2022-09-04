@@ -45,3 +45,5 @@ summary(carga_horaria)
 # INDICAR PRO R QUE SAO CATEGORIAS, E NAO APENAS VALORES ALEATORIOS
 carga_horaria <- as.factor(c(220, 220, 150, 100, 100))
 summary(carga_horaria)
+
+

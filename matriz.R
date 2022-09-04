@@ -1,0 +1,21 @@
+# MATRIZ SO PODEM TER 1 TIPO DE DADO
+
+#CRIA COM A FUNCAO MATRIX
+
+
+# 1:9 = SEQUENCIA DE VALORES QUE SERAO CRIADOS
+# NROW = NUMERO DE LINHAS
+# NCOL = NUMERO DE COLUNAS
+
+m <- matrix(1:9, nrow = 3, ncol = 3)
+mode(m)
+class(m)
+m
+
+
+# ACESSAR DADOS DA MATRZ EH IGUALZINHA JAVA E C
+
+m[1, 2] <- 'd'
+mode(m)
+class(m)
+m
